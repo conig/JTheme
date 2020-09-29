@@ -1,0 +1,18 @@
+Package: JTheme
+Title: Rstudio themes 
+Version: 0.0.1
+Authors@R: 
+    person(given = "James",
+           family = "Conigrave",
+           role = c("aut", "cre"),
+           email = "james.conigrave@gmail.com",
+           comment = c(ORCID = "0000-0002-8816-6229"))
+Description: Apply custom Rstudio themes.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    rstudioapi,
+    crayon
