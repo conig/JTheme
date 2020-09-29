@@ -4,7 +4,8 @@
 #' @export
 
 bluebell = function() {
-  suppressWarnings(rstudioapi::removeTheme("Bluebell"))
+  try(suppressWarnings(rstudioapi::removeTheme("Bluebell")),
+           silent = TRUE)
   rstudioapi::addTheme(system.file("bluebell.rstheme", package = "JTheme"), apply = TRUE)
   cat(crayon::blue("---Bluebell---"))
 }
