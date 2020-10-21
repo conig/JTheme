@@ -160,7 +160,7 @@
 .ace_marker-layer .ace_foreign_line {/*rmarkdown chunk*/
   position: absolute;
   z-index: -1;
-  background-color: #373737;
+  background-color: #424242;
 }
 
 
@@ -695,3 +695,10 @@
    color: #FFF !important;
 }
 
+
+
+.ace_marker-layer .ace_bracket {
+  margin: -1px 0 0 -1px;
+  border: 0px solid #FCE94F;
+  background: #870d4e;
+}
